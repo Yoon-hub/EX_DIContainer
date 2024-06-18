@@ -13,6 +13,8 @@
 		F4C24D992C215F1F0079F098 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4C24D972C215F1F0079F098 /* Main.storyboard */; };
 		F4C24D9B2C215F210079F098 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4C24D9A2C215F210079F098 /* Assets.xcassets */; };
 		F4C24D9E2C215F210079F098 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4C24D9C2C215F210079F098 /* LaunchScreen.storyboard */; };
+		F4C24DA62C215F2C0079F098 /* DIContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C24DA52C215F2C0079F098 /* DIContainer.swift */; };
+		F4C24DA82C215FD10079F098 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C24DA72C215FD10079F098 /* APIService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		F4C24D9A2C215F210079F098 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F4C24D9D2C215F210079F098 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F4C24D9F2C215F210079F098 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4C24DA52C215F2C0079F098 /* DIContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DIContainer.swift; sourceTree = "<group>"; };
+		F4C24DA72C215FD10079F098 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +63,12 @@
 				F4C24D912C215F1F0079F098 /* AppDelegate.swift */,
 				F4C24D932C215F1F0079F098 /* SceneDelegate.swift */,
 				F4C24D952C215F1F0079F098 /* ViewController.swift */,
+				F4C24DA52C215F2C0079F098 /* DIContainer.swift */,
 				F4C24D972C215F1F0079F098 /* Main.storyboard */,
 				F4C24D9A2C215F210079F098 /* Assets.xcassets */,
 				F4C24D9C2C215F210079F098 /* LaunchScreen.storyboard */,
 				F4C24D9F2C215F210079F098 /* Info.plist */,
+				F4C24DA72C215FD10079F098 /* APIService.swift */,
 			);
 			path = EX_DIContainer;
 			sourceTree = "<group>";
@@ -138,6 +144,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4C24DA62C215F2C0079F098 /* DIContainer.swift in Sources */,
+				F4C24DA82C215FD10079F098 /* APIService.swift in Sources */,
 				F4C24D962C215F1F0079F098 /* ViewController.swift in Sources */,
 				F4C24D922C215F1F0079F098 /* AppDelegate.swift in Sources */,
 				F4C24D942C215F1F0079F098 /* SceneDelegate.swift in Sources */,
